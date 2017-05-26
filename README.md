@@ -17,6 +17,22 @@ O propósito desse repo é centralizar tudo que discutirmos na guilda de program
 - Efeitos Colaterais
 - Expressividade
 
+## Libs
+
+Algumas linguagens mais populares como JS, PHP e C# tem bastante suporte à programação funcional. libs dessa lista tem como objetivo entregar ferramentas para você extrair ao máximo os benefícios de funcional escondidos nelas.
+
+### Multi-linguagem
+
+* ReactiveX - http://reactivex.io/
+
+### JS
+
+* Ramda - http://ramdajs.com/ -  [**Introdução**](ramda.md)
+
+### PHP
+
+* Garp Functional - https://github.com/grrr-amsterdam/garp-functional
+
 ## Recomendações de leitura
 
 ### Grátis
@@ -38,3 +54,4 @@ Welcome to a new way to learn Haskell. It is our goal to make Haskell as clear, 
 `
 
 http://haskellbook.com
+
