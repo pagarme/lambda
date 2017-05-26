@@ -3,9 +3,9 @@
 
 ## Links
 
-* **Homepage:** http://http://ramdajs.com/
-* **Docs:** http://http://ramdajs.com/docs/#
-* **REPL online:** http://http://ramdajs.com/repl/?v=0.23.0
+* **Homepage:** http://ramdajs.com/
+* **Docs:** http://ramdajs.com/docs/#
+* **REPL online:** http://ramdajs.com/repl/?v=0.23.0
 
 ## Intro
 
