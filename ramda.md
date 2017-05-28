@@ -146,6 +146,7 @@ manipulação de estruturas de dados.
 - [always](http://ramdajs.com/docs/#always)
 - [ap](http://ramdajs.com/docs/#ap)
 - [compose](http://ramdajs.com/docs/#compose)
+- [identity](http://ramdajs.com/docs/#identity)
 - [**pipe**](http://ramdajs.com/docs/#pipe)
 - [**curry**](http://ramdajs.com/docs/#curry)
 - [partial](http://ramdajs.com/docs/#partial)
