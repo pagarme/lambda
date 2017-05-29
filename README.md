@@ -17,6 +17,10 @@ O propósito desse repo é centralizar tudo que discutirmos na guilda de program
 - Efeitos Colaterais
 - Expressividade
 
+## Links
+
+- [Cube Composer](http://david-peter.de/cube-composer/) - Puzzle que ensina *composição* e operações em lista como *map* e *filter*
+
 ## Libs
 
 Algumas linguagens mais populares como JS, PHP e C# tem bastante suporte à programação funcional. libs dessa lista tem como objetivo entregar ferramentas para você extrair ao máximo os benefícios de funcional escondidos nelas.
@@ -27,7 +31,7 @@ Algumas linguagens mais populares como JS, PHP e C# tem bastante suporte à prog
 
 ### JS
 
-* Ramda - http://ramdajs.com/ -  [**Introdução**](ramda.md)
+* Ramda - http://ramdajs.com/ - [**Introdução**](ramda.md)
 
 ### PHP
 
