@@ -45,6 +45,14 @@ This is a book on the functional paradigm in general. We'll use the world's most
 
 https://github.com/MostlyAdequate/mostly-adequate-guide
 
+* **An Introduction to Functional Programming through Lambda Calculus**
+
+`
+This books aims to provide a gentle introduction to functional programming. It's based on the premises that functional programming provides pedagogic insights into many aspects of computing and offers practical techniques for general problem solving.
+`
+
+https://pdfs.semanticscholar.org/d986/546bc3780db3a3c0f8d88b35e421ae4eec21.pdf
+
 ### Pago
 
 * **Haskell Book**
