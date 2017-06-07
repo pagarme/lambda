@@ -8,9 +8,9 @@
 
 ## Links
 
-* **Homepage:** http://ramdajs.com/
-* **Docs:** http://ramdajs.com/docs/#
-* **REPL online:** http://ramdajs.com/repl/?v=0.23.0
+* **Homepage:** [ramdajs.com/](http://ramdajs.com/)
+* **Docs:** [ramdajs.com/docs/#](http://ramdajs.com/docs/#)
+* **REPL online:** [ramdajs.com/repl/?v=0.23.0](http://ramdajs.com/repl/?v=0.23.0)
 
 ## Intro
 
