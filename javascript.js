@@ -25,7 +25,8 @@ function varExample () {
 // 
 // Uma variável declarada com "var" tem como escopo a função onde foi declarada,
 // enquanto uma variável declarada com "let" tem o escopo do bloco onde foi
-// declarada.
+// declarada (onde um bloco é qualquer quantidade de linhas de código entre
+// chaves).
 
 function letExample () {
   var a = 1
@@ -35,8 +36,8 @@ function letExample () {
   console.log(a, b) // ReferenceError: b is not defined
 }
 
-// Também é possível criar um 'bloco vazio' (sem uma keyword iniciando o bloco)
-// simplesmente para criar um novo escopo:
+// Também é possível criar um 'bloco ad-hoc' (sem uma keyword como 'if' ou 'for'
+// iniciando o bloco) simplesmente para criar um novo escopo:
 
 function blockExample () {
   let a = 1
