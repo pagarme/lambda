@@ -20,13 +20,30 @@ function varExample () {
   console.log(a, b) // 1, 2
 }
 
-// A diferença de "var" e "let" é o escopo da variável declarada. "var" sempre
-// terá escopo de uma função, enquanto "let" tem escopo apenas de blocos como
-// "if" e "for"
+// A diferença de "var" e "let" é o escopo da variável declarada, ou seja, de
+// onde essa variável pode ser acessada.
+// 
+// Uma variável declarada com "var" tem como escopo a função onde foi declarada,
+// enquanto uma variável declarada com "let" tem o escopo do bloco onde foi
+// declarada (onde um bloco é qualquer quantidade de linhas de código entre
+// chaves).
+
 function letExample () {
   var a = 1
   if (true) {
     let b = 2
+  }
+  console.log(a, b) // ReferenceError: b is not defined
+}
+
+// Também é possível criar um 'bloco ad-hoc' (sem uma keyword como 'if' ou 'for'
+// iniciando o bloco) simplesmente para criar um novo escopo:
+
+function blockExample () {
+  let a = 1
+  {
+    let b = 2
+    console.log(a, b) //imprime 1 2
   }
   console.log(a, b) // ReferenceError: b is not defined
 }
@@ -53,8 +70,16 @@ b += 2 // TypeError: Assignment to constant variable.
 // funcional essa prática começa a fazer sentido.
 
 // O const não significa que a variável é uma "constante", ele apenas previne
-// você de dar outro valor para ela usando "=" novamente.
+// você de dar outro valor para ela usando "=" novamente. Inclusive, "const"
+// para objetos funciona de forma um pouco contra-intuitiva:
 
+const c = { a: 1, b: 2, c: 3 };
+c.a = 4; // nenhum erro
+c = {}; // TypeError: Assignment to constant variable.
+
+// Ou seja, a keyword const impede você de modificar a referência a um objeto,
+// mas não impede os campos de um objeto de serem modificados. Ainda assim, é
+// uma boa prática não modificar os campos de um objeto sempre que possível.
 
 // --------------------------------------------------------------------
 // No javascript qualquer variável pode ser uma função ou o resultado de uma
@@ -81,7 +106,7 @@ function tambemPodeSerUsadaComoParametro () {
 }
 
 outraFuncao(tambemPodeSerUsadaComoParametro) // confirmado!
-
+outraFuncao(1) // TypeError: 1 is not a function
 
 // --------------------------------------------------------------------
 // No javascript podemos reduzir funções em forma de "arrow functions"
