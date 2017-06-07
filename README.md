@@ -31,7 +31,7 @@ Algumas linguagens mais populares como JS, PHP e C# tem bastante suporte à prog
 
 ### JS
 
-* [Ramda](http://ramdajs.com/) - A practical functional library for JavaScript programmers. [*Nosso arquivo ramda.md pode lhe ajudar.*](ramda.md)
+* [Ramda](http://ramdajs.com/) - A practical functional library for JavaScript programmers.
 
 ### PHP
 
@@ -39,12 +39,29 @@ Algumas linguagens mais populares como JS, PHP e C# tem bastante suporte à prog
 
 ## Recomendações de leitura
 
+### Escrito por nós:
+
+* [Sobre Javascript com funcional em mente](javascript.js)
+* [Sobre Ramda](ramda.md)
+
 ### Grátis
 
 * [**Mostly adequate guide to FP (in javascript)**](https://github.com/MostlyAdequate/mostly-adequate-guide)
 
 `
 This is a book on the functional paradigm in general. We'll use the world's most popular functional programming language: JavaScript.
+`
+
+* [**Functional Workaholism**](https://codepen.io/brekk/post/functional-workaholism)
+
+`
+Over the last year or so I've been learning functional programming (FP) and trying to fold it into my basic approach to software. I'd like to frame it here the way I'd teach it to someone who knows JS but doesn't know FP.
+`
+
+* [**Thinking in Ramda**](http://randycoulman.com/blog/2016/05/24/thinking-in-ramda-getting-started/)
+
+`
+A series about functional programming called Thinking in Ramda.
 `
 
 * [**An Introduction to Functional Programming through Lambda Calculus**](https://pdfs.semanticscholar.org/d986/546bc3780db3a3c0f8d88b35e421ae4eec21.pdf)
