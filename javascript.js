@@ -98,7 +98,7 @@ funcao === umaFuncao // true
 const resultadoDeUmaFuncao = funcao() // 'e sempre deveria retornar alguma coisa'
 
 function outraFuncao (parametro) {
-  return parametro() 
+  return parametro()
 }
 
 function tambemPodeSerUsadaComoParametro () {
