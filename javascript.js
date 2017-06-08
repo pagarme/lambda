@@ -3,7 +3,7 @@
 //                           LAMBDA JS INTRO
 // --------------------------------------------------------------------
 //
-// Esse guia é um resumo de conceitos essênciais que te permitem escrever
+// Esse guia é um resumo de conceitos essenciais que te permitem escrever
 // javascript de uma maneira mais funcional.
 //
 // --------------------------------------------------------------------
@@ -50,7 +50,7 @@ function blockExample () {
 
 // "const" é a palavra que nós usaremos na maioria dos casos para declarar
 // variáveis.  O escopo do "const" é igual o do "let", mas o "const" tem uma
-// propriedade a mais: ele impossibilita você de referênciar algum outro valor
+// propriedade a mais: ele impossibilita você de referenciar algum outro valor
 // para a variável declarada.
 
 let a = 1
@@ -67,7 +67,7 @@ b += 2 // TypeError: Assignment to constant variable.
 
 // Isso pode parecer ruim caso você não esteja acostumado a trabalhar usando
 // imutabilidade, mas com um pouco de tempo utilizando um paradigma mais
-// funcional essa prática começa a fazer sentido.
+// funcional, essa prática começa a fazer sentido.
 
 // O const não significa que a variável é uma "constante", ele apenas previne
 // você de dar outro valor para ela usando "=" novamente. Inclusive, "const"
@@ -162,14 +162,14 @@ incrementar() // 3
 // NÃO deve almejar ao utilizar um estilo funcional.
 //
 // 2 - A função incrementar não é pura pois ela altera algo fora dela. Repare
-// que o contador não é enviado pra essa função, então ela primeiramente ja
+// que o contador não é enviado pra essa função, então ela primeiramente já
 // está "errada" ao acessar algo que está fora dela, e além de fazer isso ela
-// troca o valor a variavel.
+// troca o valor da variável.
 //
 // Uma função pura deve:
 // - Sempre acessar APENAS variáveis que foram enviadas para ela.
 // - Sempre retornar alguma coisa.
-// - Nunca alterar o valor das variáveis enviadas. (Imutabilidade)
+// - Nunca alterar o valor das variáveis enviadas (imutabilidade).
 // - Sempre para os mesmos valores de entrada você terá os mesmos valores de
 // saída (Isso ajuda muito na hora de fazer testes)
 //
@@ -187,13 +187,13 @@ incrementarPuro(incrementarPuro(incrementarPuro(0))) // 3
 // Anteriormente nós não tinhamos como saber qual valor a função "incrementar"
 // nos retornaria. Tudo bem que é facil responder essa pergunta nesse exemplo
 // pequeno, mas o ponto das funções puras é que elas trazem grandes benefícios
-// pro código (que ficam cada vez mais evidente quanto mais você usa o
+// pro código (que ficam cada vez mais evidentes quanto mais você usa o
 // paradigma funcional). Por exemplo: incrementarPuro(0) SEMPRE vai te retornar
 // "1" e você tem CERTEZA que isso nunca vai mudar contanto que vc mude o valor
 // do parâmetro.
 
 // Uma função pode ser pura e não trabalhar 100% com imutabilidade. Contanto
-// que a váriavel não seja alterada fora dela, não tem problema você fazer
+// que a variável não seja alterada fora dela, não tem problema você fazer
 // isso:
 const tambemPura = (counter) => {
     // counter não imutável
@@ -216,8 +216,8 @@ console.log(array) // [1, 2, 3, 4]
 
 // Perceba que a função alterou o array fora dela. Ao invés disso procure
 // sempre criar funções que apenas retornam coisas novas sem alterar as
-// enviadas. Nesse caso utilizaremos o concat que tem o mesmo efeito porem sem
-// mutar a entrada:
+// enviadas. Nesse caso utilizaremos o `concat` que tem o mesmo efeito porém
+// sem mutar a entrada:
 const array = [1, 2, 3]
 
 const facaIsso = (arr, item) => arr.concat(item)
@@ -228,21 +228,21 @@ console.log(array) // [1, 2, 3]
 
 
 // --------------------------------------------------------------------
-// Função de soma + bind para fazer aplicação parcial de parâmetros
+// Função de soma + `bind` para fazer aplicação parcial de parâmetros
 
 const add = (x, y) => x + y
 add(2, 3) // 5
 
 // Esse null serve pra enviar um "this" pra essa
 // função. Ignore ele pois o importante de se entender
-// aqui é que podemos usar o bind para pré aplicar
+// aqui é que podemos usar o `bind` para pré aplicar
 // parâmetros em funções para criar funções novas.
 //                      |
 //                      V
 const add5 = add.bind(null, 5)
 add5(10) // 15
 
-// Sem bind
+// Sem `bind`
 const addCurried = x => y => x + y
 
 const add6 = addCurried(6)
@@ -305,7 +305,7 @@ const statusPaid = transaction => transaction.status === 'paid'
 const paidOnly = filter(statusPaid)
 paidOnly(transactions) // ou seja, executamos o filter assim: filter(statusPaid, transactions)
 
-// e agora o propEq
+// e agora o `propEq`
 const statusPaid = propEq('status', 'paid')
 const paidOnly = filter(statusPaid)
 
@@ -336,7 +336,7 @@ fetch(transactions)
 
 // --------------------------------------------------------------------
 
-// Componha funções a partir das que você ja tem
+// Componha funções a partir das que você já tem
 
 import { pipe, add } from 'ramda'
 
@@ -348,7 +348,7 @@ const add10AndDouble = pipe(add(10), double)
 
 add10AndDouble(5) // 30
 
-// Promises funcional igual um pipe, porém são assíncronas:
+// `Promises` funcionam como `pipes`, porém são assíncronas:
 Promise.resolve(5)
   .then(add(10))
   .then(double)
@@ -356,5 +356,5 @@ Promise.resolve(5)
 
 
 // Se você gostou disso recomendo dar uma olhada no guia básico de ramda que
-// também esta nesse repo aqui:
+// também está nesse repo aqui:
 // https://github.com/pagarme/lambda/blob/master/ramda.md
