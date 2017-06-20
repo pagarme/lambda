@@ -70,7 +70,7 @@ A series about functional programming called Thinking in Ramda.
 This books aims to provide a gentle introduction to functional programming. It's based on the premises that functional programming provides pedagogic insights into many aspects of computing and offers practical techniques for general problem solving.
 `
 
-* [Learn you a Haskell](http://learnyouahaskell.com/)
+* [**Learn you a Haskell**](http://learnyouahaskell.com/)
 
 `
 Hey yo! This is Learn You a Haskell, the funkiest way to learn Haskell, which is the best functional programming language around. You may have heard of it. This guide is meant for people who have programmed already, but have yet to try functional programming.
