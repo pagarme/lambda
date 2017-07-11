@@ -20,6 +20,7 @@ O propósito desse repo é centralizar tudo que discutirmos na guilda de program
 ## Links
 
 - [Cube Composer](http://david-peter.de/cube-composer/) - Puzzle que ensina *composição* e operações em lista como *map* e *filter*
+- [la-ramda.js](https://gist.github.com/mrosata/0d54c552f297cf638bd719f7558478ac) - Um GIST implementando um subset de Ramda utilizando apenas arrow functions
 
 ## Libs
 
@@ -58,10 +59,10 @@ This is a book on the functional paradigm in general. We'll use the world's most
 Over the last year or so I've been learning functional programming (FP) and trying to fold it into my basic approach to software. I'd like to frame it here the way I'd teach it to someone who knows JS but doesn't know FP.
 `
 
-* [**Thinking in Ramda**](http://randycoulman.com/blog/2016/05/24/thinking-in-ramda-getting-started/)
+* [**Function composition with Handrails and Monads**](https://codepen.io/brekk/post/visual-function-composition)
 
 `
-A series about functional programming called Thinking in Ramda.
+In this article we're gonna talk about ways of visualizing functional composition and we're gonna introduce a simple Monad (don't worry, it's harmless!) that will make our composed functions safer in an easy-to-extend way.
 `
 
 * [**An Introduction to Functional Programming through Lambda Calculus**](https://pdfs.semanticscholar.org/d986/546bc3780db3a3c0f8d88b35e421ae4eec21.pdf)
