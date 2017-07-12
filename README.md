@@ -84,3 +84,15 @@ Hey yo! This is Learn You a Haskell, the funkiest way to learn Haskell, which is
 `
 Welcome to a new way to learn Haskell. It is our goal to make Haskell as clear, painless, and practical as we can.
 `
+
+## Talks
+
+### Funcional em geral
+
+* [**Functional Programming Design Patterns**](https://vimeo.com/113588389)
+
+`
+In object-oriented development, we are all familiar with design patterns such as the Strategy pattern and Decorator pattern, and design principles such as SOLID.
+The functional programming community has design patterns and principles as well.
+This talk will provide an overview of some of these, and present some demonstrations of FP design in practice.
+`
