@@ -65,12 +65,6 @@ Over the last year or so I've been learning functional programming (FP) and tryi
 In this article we're gonna talk about ways of visualizing functional composition and we're gonna introduce a simple Monad (don't worry, it's harmless!) that will make our composed functions safer in an easy-to-extend way.
 `
 
-* [**An Introduction to Functional Programming through Lambda Calculus**](https://pdfs.semanticscholar.org/d986/546bc3780db3a3c0f8d88b35e421ae4eec21.pdf)
-
-`
-This books aims to provide a gentle introduction to functional programming. It's based on the premises that functional programming provides pedagogic insights into many aspects of computing and offers practical techniques for general problem solving.
-`
-
 * [**Learn you a Haskell**](http://learnyouahaskell.com/)
 
 `
