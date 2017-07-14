@@ -6,6 +6,16 @@ Um grupo de estudos sobre programação funcional
 
 <br>
 
+## Índice
+
+- [Intro](#intro)
+- [Conceitos](#conceitos)
+- [Links](#links)
+- [Libs](#libs)
+- [Recomendações de leitura](#recomendações-de-leitura)
+- [Talks](talks)
+
+
 ## Intro
 
 O propósito desse repo é centralizar tudo que discutirmos na guilda de programação funcional, desde material de estudos até discussões e datas de reuniões.
