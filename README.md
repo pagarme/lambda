@@ -85,7 +85,7 @@ Hey yo! This is Learn You a Haskell, the funkiest way to learn Haskell, which is
 * [**Why Functional Programming Matters**](https://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf)
 
 `
-As software becomes more and more complex, it is more and more important to structure it well. Well-structured software is easy to write and to debug, and provides a collection of modules that can be reused to reduce future programming costs. In this paper we show that two features of functional languages in particular, higher-order functions and lazy evaluation, can contribute significantly to modularity. As examples, we manipulate lists and trees, program several numerical algorithms, and implement the alpha-beta heuristic (an algorithm from Artificial Intelligence used in game-playing programs). We conclude that since modularity is the key to successful programming, functional programming offers important advantages for software development.
+(...) Well-structured software is easy to write and to debug, and provides a collection of modules that can be reused to reduce future programming costs. In this paper we show that two features of functional languages in particular, higher-order functions and lazy evaluation, can contribute significantly to modularity.
 `
 
 ### Pago
