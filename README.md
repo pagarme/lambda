@@ -31,6 +31,7 @@ O propósito desse repo é centralizar tudo que discutirmos na guilda de program
 
 - [Cube Composer](http://david-peter.de/cube-composer/) - Puzzle que ensina *composição* e operações em lista como *map* e *filter*
 - [la-ramda.js](https://gist.github.com/mrosata/0d54c552f297cf638bd719f7558478ac) - Um GIST implementando um subset de Ramda utilizando apenas arrow functions
+- [YouTube - funfunfunction - Functional programming in JavaScript](https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84) - Playlist criada pelo @mpj, autor do canal do Youtube *funfunfunction*, sobre programação funcional com JavaScript. _Spoiler: ele é super maluco._
 
 ## Libs
 
