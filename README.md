@@ -13,7 +13,7 @@ Um grupo de estudos sobre programação funcional
 - [Links](#links)
 - [Libs](#libs)
 - [Recomendações de leitura](#recomendações-de-leitura)
-- [Talks](talks)
+- [Talks](#talks)
 
 
 ## Intro
