@@ -85,7 +85,7 @@ Hey yo! This is Learn You a Haskell, the funkiest way to learn Haskell, which is
 * [**Why Functional Programming Matters**](https://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf)
 
 `
-(...) Well-structured software is easy to write and to debug, and provides a collection of modules that can be reused to reduce future programming costs. In this paper we show that two features of functional languages in particular, higher-order functions and lazy evaluation, can contribute significantly to modularity.
+Well-structured software is easy to write and to debug, and provides a collection of modules that can be reused to reduce future programming costs. In this paper we show that two features of functional languages in particular, higher-order functions and lazy evaluation, can contribute significantly to modularity.
 `
 
 ### Pago
