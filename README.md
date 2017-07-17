@@ -6,6 +6,16 @@ Um grupo de estudos sobre programação funcional
 
 <br>
 
+## Índice
+
+- [Intro](#intro)
+- [Conceitos](#conceitos)
+- [Links](#links)
+- [Libs](#libs)
+- [Recomendações de leitura](#recomendações-de-leitura)
+- [Talks](#talks)
+
+
 ## Intro
 
 O propósito desse repo é centralizar tudo que discutirmos na guilda de programação funcional, desde material de estudos até discussões e datas de reuniões.
@@ -21,6 +31,7 @@ O propósito desse repo é centralizar tudo que discutirmos na guilda de program
 
 - [Cube Composer](http://david-peter.de/cube-composer/) - Puzzle que ensina *composição* e operações em lista como *map* e *filter*
 - [la-ramda.js](https://gist.github.com/mrosata/0d54c552f297cf638bd719f7558478ac) - Um GIST implementando um subset de Ramda utilizando apenas arrow functions
+- [YouTube - funfunfunction - Functional programming in JavaScript](https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84) - Playlist criada pelo @mpj, autor do canal do Youtube *funfunfunction*, sobre programação funcional com JavaScript. _Spoiler: ele é super maluco._
 
 ## Libs
 
@@ -71,6 +82,12 @@ In this article we're gonna talk about ways of visualizing functional compositio
 
 `
 Hey yo! This is Learn You a Haskell, the funkiest way to learn Haskell, which is the best functional programming language around. You may have heard of it. This guide is meant for people who have programmed already, but have yet to try functional programming.
+`
+
+* [**Why Functional Programming Matters**](https://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf)
+
+`
+Well-structured software is easy to write and to debug, and provides a collection of modules that can be reused to reduce future programming costs. In this paper we show that two features of functional languages in particular, higher-order functions and lazy evaluation, can contribute significantly to modularity.
 `
 
 ### Pago
