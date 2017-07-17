@@ -37,6 +37,8 @@ Algumas linguagens mais populares como JS, PHP e C# tem bastante suporte à prog
 ### PHP
 
 * [Garp Functional](https://github.com/grrr-amsterdam/garp-functional) - PHP utility library embracing functional programming paradigms. Supports PHP 5.3+.
+* [Iter](https://github.com/nikic/iter) - Iteration primitives using generators.
+* [Prelude](https://github.com/sergiors/prelude) - Functional library for PHP. Just PHP 7+.
 
 ## Recomendações de leitura
 
