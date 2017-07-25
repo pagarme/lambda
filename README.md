@@ -60,6 +60,12 @@ Algumas linguagens mais populares como JS, PHP e C# tem bastante suporte à prog
 
 ### Grátis
 
+* [**A Functional Programmer’s Introduction to JavaScript**](https://medium.com/javascript-scene/a-functional-programmers-introduction-to-javascript-composing-software-d670d14ede30)
+
+`
+This is part of the “Composing Software” series on learning functional programming and compositional software techniques in JavaScript ES6+ from the ground up. Stay tuned. There’s a lot more of this to come!
+`
+
 * [**Mostly adequate guide to FP (in javascript)**](https://github.com/MostlyAdequate/mostly-adequate-guide)
 
 `
