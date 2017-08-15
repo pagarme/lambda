@@ -22,7 +22,7 @@ function varExample () {
 
 // A diferença de "var" e "let" é o escopo da variável declarada, ou seja, de
 // onde essa variável pode ser acessada.
-// 
+//
 // Uma variável declarada com "var" tem como escopo a função onde foi declarada,
 // enquanto uma variável declarada com "let" tem o escopo do bloco onde foi
 // declarada (onde um bloco é qualquer quantidade de linhas de código entre
@@ -87,8 +87,8 @@ c = {}; // TypeError: Assignment to constant variable.
 // resultado.
 
 function umaFuncao () {
-    console.log('faz coisas aqui dentro')
-    return 'e sempre deveria retornar alguma coisa'
+  console.log('faz coisas aqui dentro')
+  return 'e sempre deveria retornar alguma coisa'
 }
 
 const funcao = umaFuncao
@@ -145,8 +145,8 @@ const double = x => x * 2
 var contador = 0
 
 const incrementar = () => {
-    contador = contador + 1
-    return contador
+  contador = contador + 1
+  return contador
 }
 
 incrementar() // 1
@@ -196,11 +196,11 @@ incrementarPuro(incrementarPuro(incrementarPuro(0))) // 3
 // que a variável não seja alterada fora dela, não tem problema você fazer
 // isso:
 const tambemPura = (counter) => {
-    // counter não imutável
-    counter = incrementarPuro(counter)
-    counter = incrementarPuro(counter)
-    counter = incrementarPuro(counter)
-    return counter
+  // counter não imutável
+  counter = incrementarPuro(counter)
+  counter = incrementarPuro(counter)
+  counter = incrementarPuro(counter)
+  return counter
 }
 tambemPura(0) // 3
 
@@ -286,11 +286,11 @@ prop('status', transaction) // 'paid'
 propEq('status', 'paid', transaction) // true
 
 const transactions = [
-    { amount: 1000, status: 'paid' },
-    { amount: 2400, status: 'refunded' },
-    { amount: 3000, status: 'paid' },
-    { amount: 4000, status: 'paid' },
-    { amount: 5500, status: 'refunded' },
+  { amount: 1000, status: 'paid' },
+  { amount: 2400, status: 'refunded' },
+  { amount: 3000, status: 'paid' },
+  { amount: 4000, status: 'paid' },
+  { amount: 5500, status: 'refunded' },
 ]
 
 // Filtrando transações com status paid:
