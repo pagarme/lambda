@@ -1,4 +1,4 @@
-<img src="https://vignette1.wikia.nocookie.net/half-life/images/d/dc/Lambda_logo.svg/revision/latest?cb=20100327174546&path-prefix=en" width="127px" height="127px" align="left"/>
+<img src="https://user-images.githubusercontent.com/29930809/29830105-9ffc7f16-8cb7-11e7-9af6-2d43c171dfcb.png" width="127px" height="127px" align="left"/>
 
 # Pagar.me Lambda
 
