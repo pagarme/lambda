@@ -123,7 +123,7 @@ const double = function (x) {
 const double = (x) => {
   return x * 2
 }
-// Arrow functions que teriam apenas um ";" nao precisam de chaves. Por acaso
+// Arrow functions que teriam apenas um ";" não precisam de chaves. Por acaso
 // você sentiu falta de algum ";" até agora? O ";" é opcional no javascript
 // contanto que você não comece uma linha com "(" ou "[".
 // Para mais informações sobre ";" acesse https://mislav.net/2010/05/semicolons/
@@ -157,7 +157,7 @@ incrementar() // 3
 // 0 e fizemos uma função para incrementá-lo. Utilizei esse exemplo pois ele
 // tem 2 peculiaridades:
 //
-// 1 - O contador é uma variável que nós criamos com a intenção de mutar. Mutar
+// 1 - O contador é uma variável que nós criamos com a intenção de modificar. Modificar
 // uma variável significa trocar o valor que ela tem, e isso é algo que você
 // NÃO deve almejar ao utilizar um estilo funcional.
 //
@@ -174,7 +174,7 @@ incrementar() // 3
 // saída (Isso ajuda muito na hora de fazer testes)
 //
 
-// Agora vamors fazer o mesmo contador de forma pura e imutável:
+// Agora vamos fazer o mesmo contador de forma pura e imutável:
 const incrementarPuro = counter => counter + 1
 
 incrementarPuro(0) // 1
@@ -184,12 +184,12 @@ incrementarPuro(0) // 1
 
 incrementarPuro(incrementarPuro(incrementarPuro(0))) // 3
 
-// Anteriormente nós não tinhamos como saber qual valor a função "incrementar"
-// nos retornaria. Tudo bem que é facil responder essa pergunta nesse exemplo
+// Anteriormente nós não tínhamos como saber qual valor a função "incrementar"
+// nos retornaria. Tudo bem que é fácil responder essa pergunta nesse exemplo
 // pequeno, mas o ponto das funções puras é que elas trazem grandes benefícios
 // pro código (que ficam cada vez mais evidentes quanto mais você usa o
 // paradigma funcional). Por exemplo: incrementarPuro(0) SEMPRE vai te retornar
-// "1" e você tem CERTEZA que isso nunca vai mudar contanto que vc mude o valor
+// "1" e você tem CERTEZA que isso nunca vai mudar contanto que você mude o valor
 // do parâmetro.
 
 // Uma função pode ser pura e não trabalhar 100% com imutabilidade. Contanto
@@ -217,7 +217,7 @@ console.log(array) // [1, 2, 3, 4]
 // Perceba que a função alterou o array fora dela. Ao invés disso procure
 // sempre criar funções que apenas retornam coisas novas sem alterar as
 // enviadas. Nesse caso utilizaremos o `concat` que tem o mesmo efeito porém
-// sem mutar a entrada:
+// sem modificar a entrada:
 const array = [1, 2, 3]
 
 const facaIsso = (arr, item) => arr.concat(item)
@@ -259,11 +259,11 @@ addCurried(2)(3) // 5
 addCurried(2, 3) // y => x + y
 
 // Infelizmente vimos que não podemos chamar a função direto com os 2
-// parâmetros, nós somos obrigados a enviar de 1 em 1. Seria legal se pudessmos
+// parâmetros, nós somos obrigados a enviar de 1 em 1. Seria legal se pudéssemos
 // utilizar a função acima das 2 maneiras né? Então continuemos:
 
 // --------------------------------------------------------------------
-// Ramda - Todas as funções são puras, nunca mutam a entrada, sempre retornam
+// Ramda - Todas as funções são puras, nunca modificam a entrada, sempre retornam
 // alguma coisa, e podem ser parcialmente aplicadas da maneira que você quiser.
 // http://ramdajs.com/
 
