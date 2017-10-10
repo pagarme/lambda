@@ -66,6 +66,12 @@ Algumas linguagens mais populares como JS, PHP e C# tem bastante suporte à prog
 This is part 1 of the “Composing Software” series on learning functional programming and compositional software techniques in JavaScript ES6+ from the ground up.
 `
 
+* [**Real world functional programming in JS**](https://github.com/haskellcamargo/js-real-world-functional-programming)
+
+`
+Tips and guidelines for scalable and easily maintainable code bases!
+`
+
 * [**Mostly adequate guide to FP (in javascript)**](https://github.com/MostlyAdequate/mostly-adequate-guide)
 
 `
