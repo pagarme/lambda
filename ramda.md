@@ -10,7 +10,7 @@
 
 * **Homepage:** http://ramdajs.com/
 * **Docs:** http://ramdajs.com/docs/#
-* **REPL online:** http://ramdajs.com/repl/?v=0.23.0
+* **REPL online:** http://ramdajs.com/repl/
 
 ## Intro
 
