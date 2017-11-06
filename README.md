@@ -102,6 +102,11 @@ Hey yo! This is Learn You a Haskell, the funkiest way to learn Haskell, which is
 Well-structured software is easy to write and to debug, and provides a collection of modules that can be reused to reduce future programming costs. In this paper we show that two features of functional languages in particular, higher-order functions and lazy evaluation, can contribute significantly to modularity.
 `
 
+* [**Purely Functional Data Structures**](https://www.cs.cmu.edu/~rwh/theses/okasaki.pdf)
+
+`
+This book describes data structures from the point of view of functional languages, with examples, and presents design techniques that allow programmers to develop their own functional data structures. The author includes both classical data structures, such as red-black trees and binomial queues, and a host of new data structures developed exclusively for functional languages.
+`
 ### Pago
 
 * [**Haskell Book**](http://haskellbook.com)
