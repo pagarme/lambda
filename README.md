@@ -98,7 +98,8 @@ Hey yo! This is Learn You a Haskell, the funkiest way to learn Haskell, which is
 
 * [**Clojure for the Brave and True**](http://braveclojure.com/)
 
-`One of the best books on Clojure ot there. It teaches you the basics of the language syntax and functions, but, more importantly, it teaches you how to think in a Clojure way.`
+`One of the best books on Clojure ot there. It teaches you the basics of the language syntax and functions, but, more importantly, it teaches you how to think in a Clojure way.
+`
 
 * [**Why Functional Programming Matters**](https://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf)
 
