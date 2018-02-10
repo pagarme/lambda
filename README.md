@@ -96,6 +96,10 @@ In this article we're gonna talk about ways of visualizing functional compositio
 Hey yo! This is Learn You a Haskell, the funkiest way to learn Haskell, which is the best functional programming language around. You may have heard of it. This guide is meant for people who have programmed already, but have yet to try functional programming.
 `
 
+* [**Clojure for the Brave and True**](http://braveclojure.com/)
+
+`One of the best books on Clojure ot there. It teaches you the basics of the language syntax and functions, but, more importantly, it teaches you how to think in a Clojure way.`
+
 * [**Why Functional Programming Matters**](https://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf)
 
 `
