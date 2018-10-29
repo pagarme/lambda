@@ -1,4 +1,4 @@
-<img src="https://user-images.githubusercontent.com/29930809/29830105-9ffc7f16-8cb7-11e7-9af6-2d43c171dfcb.png" width="127px" height="127px" align="left"/> <img src="https://avatars2.githubusercontent.com/u/24793433?s=200&v=4" width="127px" height="127px" align="left"/>
+<img src="https://avatars2.githubusercontent.com/u/3846050?v=4" width="127px" height="127px" align="left"/> <img src="https://avatars2.githubusercontent.com/u/24793433?s=200&v=4" width="127px" height="127px" align="left"/>
 
 
 # [Pagar.me](https://github.com/pagarme) + [Hash](https://github.com/hashlab): Lambda
