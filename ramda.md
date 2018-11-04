@@ -158,15 +158,15 @@ manipulação de estruturas de dados.
 <details>
 <summary>Functions that helps splitting the the code flow</summary>
 
-- [allPass](ramdajs.com/docs/#allPass)
-- [and](ramdajs.com/docs/#and)
-- [both](ramdajs.com/docs/#both)
-- [cond](ramdajs.com/docs/#cond)
-- [defaultTo](ramdajs.com/docs/#defaultTo)
-- [either](ramdajs.com/docs/#either)
-- [ifElse](ramdajs.com/docs/#ifElse)
-- [not](ramdajs.com/docs/#not)
-- [or](ramdajs.com/docs/#or)
+- [allPass](http://ramdajs.com/docs/#allPass)
+- [and](http://ramdajs.com/docs/#and)
+- [both](http://ramdajs.com/docs/#both)
+- [cond](http://ramdajs.com/docs/#cond)
+- [defaultTo](http://ramdajs.com/docs/#defaultTo)
+- [either](http://ramdajs.com/docs/#either)
+- [ifElse](http://ramdajs.com/docs/#ifElse)
+- [not](http://ramdajs.com/docs/#not)
+- [or](http://ramdajs.com/docs/#or)
 </details>
 
 ## Desafios
