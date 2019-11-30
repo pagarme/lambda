@@ -120,6 +120,12 @@ This book describes data structures from the point of view of functional languag
 Welcome to a new way to learn Haskell. It is our goal to make Haskell as clear, painless, and practical as we can.
 `
 
+* [**Functional Programming in JavaScript**](https://www.manning.com/books/functional-programming-in-javascript)
+
+`
+Functional Programming in JavaScript teaches JavaScript developers functional techniques that will improve extensibility, modularity, reusability, testability, and performance. Through concrete examples and jargon-free explanations, this book teaches you how to apply functional programming to real-life development tasks.
+`
+
 ## Talks
 
 ### Funcional em geral
