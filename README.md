@@ -124,7 +124,7 @@ Welcome to a new way to learn Haskell. It is our goal to make Haskell as clear, 
 
 ### Funcional em geral
 
-* [**Functional Programming Design Patterns**](https://vimeo.com/113588389)
+* [**Functional Programming Design Patterns**](https://www.youtube.com/watch?v=srQt1NAHYC0)
 
 `
 In object-oriented development, we are all familiar with design patterns such as the Strategy pattern and Decorator pattern, and design principles such as SOLID.
